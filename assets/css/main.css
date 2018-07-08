@@ -2513,7 +2513,7 @@
 			top:0;
 			left: 0;
 			/* height: 18%; */
-			width: 40%;
+			/* width: 40%; */
 			border-radius: 5px;
 		}
 		#banner.eventTwo{
@@ -2522,9 +2522,10 @@
 		#banner.bookTwo header.bookTwo{
 			bottom: 0;
 			right: 0;
-			width: 40%;
+			/* width: 40%; */
 			border-radius: 5px;
 		}
+
 	#banner.bookThree{
 		background-image: url("../../images/banner-PS.jpg");
 		background-position: center;
@@ -2552,9 +2553,15 @@
 			top:0;
 			right:0;
 			/* height: 18%; */
-			width: 40%;
+			/* width: 25%; */
 			border-radius: 5px;
 			background: rgba(27, 27, 27, 0.5);
+		}
+		@media screen and (min-width: 841px) {
+			section#banner header{
+				width: 40%;
+			}
+
 		}
 
 			#banner header h2 {
@@ -2723,7 +2730,7 @@
 		/* Header */
 
 			#header {
-				padding: 2em 0 0 0;
+				/* padding: 2em 0 0 0; */
 			}
 
 				#header h1 {
@@ -3088,11 +3095,12 @@
 			display: none;
 		}
 		section#banner header{
-			width: 20%;
+			width: 24%;
 		}
 		#banner a.Button {
 			margin-top: 0;
 		}
+
 	}
 	@media screen and (max-width: 768px) and (min-width: 736px){
 
@@ -3182,6 +3190,9 @@
 			/* section#banner h2 {
 				display: none;
 			} */
+			section#banner header{
+				width: 46%;
+			}
 			section#banner a.button {
 				margin-top: 5px;
 				margin-left: 1px;
