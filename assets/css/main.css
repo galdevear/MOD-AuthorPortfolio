@@ -1816,7 +1816,8 @@
 	body, input, select, textarea {
 		/* color: #474747; */
 		/* color: rgba(94, 94, 94, 1); */
-		color: rgb(139, 139, 139);
+		/* color: rgb(139, 139, 139); */
+		color: rgba(165, 165, 165, 1);
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2563,6 +2564,9 @@
 			section#banner header{
 				width: 40%;
 			}
+			section#banner header.bottom {
+				width: 100%;
+			}
 
 		}
 
@@ -2597,7 +2601,7 @@
 	}
 
 		.wrapper.style1 {
-			background: rgba(3, 3, 3, 1);
+			background: rgba(8, 8, 8, 1);
 		}
 
 		.wrapper.style2 {
@@ -2626,10 +2630,14 @@
 					color: gray !important;
 				}
 
-/* Card */
+/* card */
 
 	div.card div.card-body{
 		font-size: 1.05rem;
+		color: rgba(180, 180, 180, 1)
+	}
+	div.card {
+		background-color: rgb(40, 40, 40);
 	}
 
 /* CTA */
