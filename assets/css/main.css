@@ -1802,6 +1802,29 @@
 		/* background-clip: border-box; */
 	}
 
+	#profEmail {
+		text-align: center;
+		padding-top: 15px;
+		font-size: 2rem;
+	}
+	#profEmail span {
+		margin-top: 5px;
+		font-size: 1.21rem;
+	}
+
+	@media screen and (max-width: 480px) {
+		#profEmail {
+			text-align: left;
+		}
+		#profEmail br{
+			display: none;
+		}
+		#profEmail span{
+			margin-left: 7px;
+			font-size: 1rem
+		}
+	}
+
 		body.is-loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
@@ -2027,6 +2050,9 @@
 			display: block;
 			border-radius: 5px;
 		}
+		#purchaseLinks .image img{
+			border-radius: 0px;
+		}
 
 		.image.left {
 			display: block;
@@ -2110,6 +2136,8 @@
 			}
 			.bookIcon.major img {
 				height: 120px;
+				border-radius: 5px;
+				box-shadow: 0px 0px 3px #1b1b1b;
 			}
 
 /* Lists */
@@ -2323,6 +2351,22 @@
 
 	.box.highlight {
 		text-align: center;
+	}
+
+	/* @media screen and (min-width: 841px) { */
+		#barnesAndNoble{
+			padding-top: 4px;
+		}
+
+		#lulu{
+			margin-top: -14px;
+			padding-left: 10px;
+		}
+	/* } */
+	/* above bracket intentionally commented out in relation to the media query above. Only uncomment if the other is too. */
+
+	#purchaseLinks section {
+		/* margin-bottom: 100px; */
 	}
 
 	.box.post {
@@ -2594,6 +2638,62 @@
 				margin-left: 1em;
 			}
 
+	#audibleHeader{
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+
+	}
+
+	@media screen and (min-width: 992px) {
+		#audibleHeader {
+			font-size: 2.5em;
+		}
+		#audibleHeader img{
+			margin-left: 44%;
+			height: 180px;
+			margin-top: -30px;
+		}
+	}
+	@media screen and (max-width: 991px) and (min-width: 737px){
+		#audibleHeader {
+			font-size: 2.5em;
+			margin-left: 10%;
+			margin-right: 30%;
+		}
+		#audibleHeader img{
+			margin-left: 48%;
+			height: 180px;
+			margin-top: -23px;
+		}
+	}
+	@media screen and (max-width: 736px) and (min-width: 441px;) {
+		#audibleHeader {
+			font-size: 2em;
+			margin-left: 10%;
+			margin-right: 30%;
+		}
+
+		#audibleHeader img {
+			margin-left: 49%;
+			height: 120px;
+			margin-top: -17px;
+		}
+	}
+	@media screen and (max-width: 440px) {
+		#audibleHeader {
+			font-size: 1.6em;
+			margin-left: 3%;
+			margin-right: 17%;
+			width: 80%
+		}
+		#audibleHeader img {
+			margin-left: 34%;
+			height: 100px;
+			margin-top: -11px;
+		}
+	}
+
 /* Wrapper */
 
 	.wrapper {
@@ -2634,7 +2734,7 @@
 
 	div.card div.card-body{
 		font-size: 1.05rem;
-		color: rgba(180, 180, 180, 1)
+		color: rgba(200, 200, 200, 1)
 	}
 	div.card {
 		background-color: rgb(40, 40, 40);
@@ -3346,4 +3446,8 @@
 			padding-top: 0em;
 			height: 100px;
 		}
+	}
+
+	.carousel-indicators {
+		display: none;
 	}
