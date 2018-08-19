@@ -2542,7 +2542,7 @@
 
 /* Banner */
 
-	#banner {
+	.banner {
 		background-image: url("../../images/banner.jpg");
 		background-position: top center;
 		background-size: cover;
@@ -2550,37 +2550,37 @@
 		text-align: center;
 		position: relative;
 	}
-	#banner.bookOne{
+	.banner.bookOne{
 		background-image: url("../../images/banner-WS.jpg");
 	}
-	#banner.eventOne{
+	.banner.eventOne{
 		background-image: url("../../images/eventOne.jpg");
 	}
-		#banner.bookOne header.bookOne{
+		.banner.bookOne header.bookOne{
 			top:0;
 			left: 0;
 			/* height: 18%; */
 			/* width: 40%; */
 			border-radius: 5px;
 		}
-		#banner.eventTwo{
+		.banner.eventTwo{
 			background-image: url("../../images/eventTwo.jpg");
 		}
-		#banner.bookTwo header.bookTwo{
+		.banner.bookTwo header.bookTwo{
 			bottom: 0;
 			right: 0;
 			/* width: 40%; */
 			border-radius: 5px;
 		}
 
-	#banner.bookThree{
+	.banner.bookThree{
 		background-image: url("../../images/banner-PS.jpg");
 		background-position: center;
 	}
-	#banner.eventThree{
+	.banner.eventThree{
 		background-image: url("../../images/eventThree.jpg");
 	}
-		#banner header {
+		.banner header {
 			position: absolute;
 			/* bottom: 0; */
 			/* left: 0; */
@@ -2590,13 +2590,13 @@
 			color: #fff;
 			padding: 0.7em 0;
 		}
-			#banner header.bottom{
+			.banner header.bottom{
 				bottom: 0;
 				left:0;
 				padding:0.1em 0;
 			}
 
-		#banner.bookThree header.bookThree{
+		.banner.bookThree header.bookThree{
 			top:0;
 			right:0;
 			/* height: 18%; */
@@ -2605,35 +2605,35 @@
 			background: rgba(27, 27, 27, 0.5);
 		}
 		@media screen and (min-width: 841px) {
-			section#banner header{
+			section.banner header{
 				width: 40%;
 			}
-			section#banner header.bottom {
+			section.banner header.bottom {
 				width: 100%;
 			}
 
 		}
 
-			#banner header h2 {
+			.banner header h2 {
 				display: inline-block;
 				margin: 0;
 				font-size: 1.1em;
 				vertical-align: middle;
 			}
 
-				#banner header h2 em {
+				.banner header h2 em {
 					opacity: 0.75;
 				}
 
-				#banner header h2 a {
+				.banner header h2 a {
 					border-bottom-color: rgba(255, 255, 255, 0.5);
 				}
 
-					#banner header h2 a:hover {
+					.banner header h2 a:hover {
 						border-bottom-color: transparent;
 					}
 
-			#banner header .button {
+			.banner header .button {
 				vertical-align: middle;
 				margin-left: 1em;
 			}
@@ -2811,7 +2811,7 @@
 
 		/* Banner */
 
-			#banner {
+			.banner {
 				height: 24em;
 			}
 
@@ -2855,7 +2855,7 @@
 
 		/* Banner */
 
-			#banner {
+			.banner {
 				height: 20em;
 			}
 
@@ -2974,18 +2974,18 @@
 
 		/* Banner */
 
-			#banner {
+			.banner {
 				height: 20em;
 			}
 
-				#banner header h2 {
+				.banner header h2 {
 					display: block;
 				}
 
-				#banner header .button {
+				.banner header .button {
 					/* margin: 1em 0 0 0; */
 				}
-				#banner header {
+				.banner header {
 					padding: 5px;
 					height: auto;
 				}
@@ -3207,13 +3207,13 @@
 		}
 	}
 	@media screen and (max-width: 840px) {
-		section#banner h2 {
+		section.banner h2 {
 			display: none;
 		}
-		section#banner header{
+		section.banner header{
 			width: 24%;
 		}
-		#banner a.Button {
+		.banner a.Button {
 			margin-top: 0;
 		}
 
@@ -3277,7 +3277,7 @@
 
 		/* Banner */
 
-			#banner {
+			.banner {
 				height: 18em;
 			}
 
@@ -3293,50 +3293,50 @@
 
 	/*Extra mobile*/
 	@media screen and (max-width: 650px) and (min-width: 481px){
-		#banner {
+		.banner {
 			height: 14em;
 		}
 	}
 	@media screen and (max-width: 480px) {
 
 		/*Carousel Banners*/
-			/* #banner a.button {
+			/* .banner a.button {
 				display: none;
 			} */
-			/* section#banner h2 {
+			/* section.banner h2 {
 				display: none;
 			} */
-			section#banner header{
+			section.banner header{
 				width: 46%;
 			}
-			section#banner a.button {
+			section.banner a.button {
 				margin-top: 5px;
 				margin-left: 1px;
 				/* font-size: .25 */
 			}
-			#banner.bookOne header.bookOne{
+			.banner.bookOne header.bookOne{
 				padding: 5px;
 				height: auto;
 			}
-			#banner.bookTwo header.bookTwo{
+			.banner.bookTwo header.bookTwo{
 				padding: 5px;
 				height: auto;
 			}
-			#banner.bookThree header.bookThree{
+			.banner.bookThree header.bookThree{
 				padding: 5px;
 				height: auto;
 			}
-			#banner.bookOne{
+			.banner.bookOne{
 				background-image: url("../../images/bannerMobile-WS.jpg");
 				height: 500px;
 				background-position-y: 55%;
 			}
-			#banner.bookTwo{
+			.banner.bookTwo{
 				background-image: url("../../images/bannerMobile-LFP.jpg");
 				height: 500px;
 				background-position-y: 54%;
 			}
-			#banner.bookThree{
+			.banner.bookThree{
 				background-image: url("../../images/bannerMobile-PS.jpg");
 				height: 500px;
 				background-position-y: 56%;
@@ -3400,11 +3400,11 @@
 
 		/* Banner */
 
-			#banner {
+			.banner {
 				height: 20em;
 			}
 
-				#banner header {
+				.banner header {
 					padding: 20px;
 				}
 			#fanFusionBanner h2 {
