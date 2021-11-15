@@ -6,7 +6,6 @@
 -->
 <!--
     Author: Conner Duncan
-    Version: 2.0
     Desc: Home page for MO'BD publishing.
 -->
 <html>
@@ -59,8 +58,25 @@
                             <li><a href="book5.html">Lt. Reilly and the Black Bird Offensive</a></li>
 							<li><a href="ltr3.html">Lt. Reilly and the Phantom Raptor</a></li>
 							<li><a href="mmcc.html">Major Mitchell and the Carplex Conspiracy</a></li>
+                            <!-- <li><a href="https://www.amazon.com/gp/product/B08X3SG6QF/ref=dbs_a_def_rwt_bibl_vppi_i0">Lt. Reilly and the Phantom Raptor</a></li>
+                            <li><a href="https://www.amazon.com/gp/product/B09H6HN6J8/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3">Major Mitchell and the Carplex Conspiracy</a></li> -->
+                            <!-- <li>
+											<a href="#">Buy</a>
+											<ul>
+												<li><a href="#">Amazon</a></li>
+												<li><a href="#">Lulu</a></li>
+												<li><a href="#">Bla bla</a></li>
+												<li><a href="#">audible</a></li>
+												<li><a href="#">other</a></li>
+											</ul>
+										</li> -->
+                            <!-- <li><a href="#">Current Projects</a></li> -->
                         </ul>
                     </li>
+                    <!-- <li><a href="bio.html">Bio</a></li> -->
+                    <!-- <li><a href="right-sidebar.html">Events</a></li> -->
+                    <!-- <li><a href="two-sidebar.html">Contact</a></li> -->
+                    <!-- <li><a href="reviews.html">Reviews</a></li> -->
                 </ul>
             </nav>
 
@@ -134,24 +150,83 @@
                 </div>
             </div>
         </section>
+<!--
+        <section class="wrapper style1" style="background: linear-gradient(to right, #0d0d0d, #000000, #000000, #000000, #000000, #000000, #0d0d0d);">
+            <div class="container mb-4">
+                <div class="row 200%">
+                    <section class="4u 12u(narrower)">
+                        <div class="box highlight">
+                            <a href="book1.html" class="bookIcon major i" style="border-bottom: 0px;">
+                                <img src="images/bannerMobile-WS.jpg" alt="The cover of The Warrior's Stone" />
+                            </a>
+                            <h3>The Warrior's Stone</h3>
+                            <p>"In the light of darkness silence is king."</p>
+                        </div>
+                    </section>
+                    <section class="4u 12u(narrower)">
+                        <div class="box highlight">
+                            <a href="book2.html" class="bookIcon major i" style="border-bottom: 0px;">
+                                <img src="images/bannerMobile-LFP.jpg" alt="The cover of The Last Flight of the Phoenix" />
+                            </a>
+                            <h3>The Last Flight of the Phoenix</h3>
+                            <p>"We are Human. We will go. We will go and keep going. We will not stop"</p>
+                        </div>
+                    </section>
+                    
+                    <section class="4u 12u(narrower)">
+                        <div class="box highlight">
+                            <a href="book3.html" class="bookIcon major i" style="border-bottom: 0px;">
+                                <img src="images/bannerMobile-PS.jpg" alt="The cover of The Prophet's Stone" />
+                            </a>
+                            <h3>The Prophet's Stone</h3>
+                            <p>"Time will not be our ally. The evil that comes will not be a simple beast or monster. We must all be ready, especially you."</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+-->
        <section class="wrapper style1">
             <div class="container">
+                <!-- <img src="images/pic01.jpg" class="image" alt=""> -->
+                <!-- row1 -->
+<!--                <div class="row">-->
+                    <!-- <section class="6u 12u(narrower)"> -->
+                    <!-- </section> -->
+                    <!-- <section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic02.png" alt="" /></a>
+									<div class="inner">
+										<h3>The Last Flight of the Phoenix</h3>
+										<p>
+											Different paths of unlikely allies and new foes will intersect in the skies and on the ground of New Terra once again, where everything will change and destinies will collide.
+									  </p>
+									</div>
+								</div>
+							</section> -->
+<!--                </div>-->
 
-                <!-- row 1 -->
+                <!-- row 2 -->
 
                 <div class="row">
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="book1.html" class="image left"><img src="images/bannerMobile-WS.jpg" alt="The Warrior's Stone" /></a>
+<!--                                                       <a href="book1.html" class="bookIcon major i" style="border-bottom: 0px;">-->
+<!--                            <a href="book3.html" class="image left"><img src="images/pic03.png" alt="" /></a>-->
+                            <a href="book1.html" class="image left"><img src="images/TWS_Icon.jpg" alt="The cover of The Warrior's Stone" /></a>
                             <div class="inner">
+                                <!-- <h3>The Warrior's Stone</h3> -->
                                 <p>The war with the Serken is finally turning to the favor of the Allied worlds for the first time in over a decade, yet it is far from over. Lt. Commander Roy O’Hara leads his squadron of combat fighters against the enemy’s latest Super Destroyer and is shot down over an unexplored planet.</p>
                             </div>
                         </div>
                     </section>
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="book2.html" class="image left"><img src="images/TLFP_Icon.jpg" alt="The Last Flight of the Phoenix" /></a>
+                            <a href="book2.html" class="image left"><img src="images/TLFP_Icon.jpg" alt="The cover of The Warrior's Stone" /></a>
+<!--                            <a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>-->
                             <div class="inner">
+                                <!-- <h3>The Last Flight of the Phoenix</h3> -->
                                 <p>Different paths of unlikely allies and new foes will intersect in the skies and on the ground of New Terra once again, where everything will change and destinies will collide.</p>
                             </div>
                         </div>
@@ -160,16 +235,18 @@
                 <div class="row">
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="book3.html" class="image left"><img src="images/TPS_Icon.jpg" alt="The Prophet's Stone" /></a>
+                            <a href="book3.html" class="image left"><img src="images/TPS_Icon.jpg" alt="Cover of The Prophet's Stone" /></a>
                             <div class="inner">
+                                <!-- <h3>The Prophet's Stone</h3> -->
                                 <p>Time will not be our ally. The evil that comes will not be a simple beast or monster. We must all be ready, especially you.</p>
                             </div>
                         </div>
                     </section>
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="book4.html" class="image left"><img src="images/LR_Icon.jpg" alt="Lt. Reilly 2321" /></a>
+                            <a href="book4.html" class="image left"><img src="images/LR_Icon.jpg" alt="Cover of Lt. Reilly 2321" /></a>
                             <div class="inner">
+                                <!-- <h3>Lt. Reilly 2321</h3> -->
                                 <p>Jack Reilly’s luck ran out just before the war did. Released on a medical discharge shortly after the end of the war with the Serkins, he went out into the galaxy looking for a job... </p>
                             </div>
                         </div>
@@ -178,33 +255,55 @@
                 <div class="row">
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="book5.html" class="image left"><img src="images/LRBBO_Icon.jpg" alt="Lt. Reilly and the Black Bird Offensive" /></a>
+                            <a href="book5.html" class="image left"><img src="images/LRBBO_Icon.jpg" alt="Cover of Lt. Reilly and the Black Bird Offensive" /></a>
                             <div class="inner">
+                                <!-- <h3>Lt. Reilly and the Black Bird Offensive</h3> -->
                                 <p>He took the job that Mitchell offered him in the Military Investigations office on New Harmony, got his commission reinstated, and finally had a chance to figure out his relationship with Kayla. Yet one of his cases turned out to be much, much bigger than he expected it to be.</p>
                             </div>
                         </div>
                     </section>
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="ltr3.html" class="image left"><img src="images/LRPR_Icon.jpg" alt="Lt. Reilly and the Phantom Raptor" /></a>
+                            <a href="https://www.amazon.com/gp/product/B08X3SG6QF/ref=dbs_a_def_rwt_bibl_vppi_i0" class="image left"><img src="images/LRPR_Icon.jpg" alt="Cover of Lt. Reilly and the phantom raptor" /></a>
                             <div class="inner">
+                                <!-- <h3>Lt. Reilly and the Phantom Raptor</h3> -->
                                 <p>Just because the war was over doesn’t mean Reilly didn’t have battles to fight and challenges to face.  Back on New Harmony, he settled into a domestic life with Kayla and continued to work with Major Mitchell to flush out corruption within the service...</p>
                             </div>
                         </div>
                     </section>
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="mmcc.html" class="image left"><img src="images/MMCC_Icon.jpg" alt="Major Mitchell and the Carplex Conspiracy" /></a>
+                            <a href="https://www.amazon.com/gp/product/B09H6HN6J8/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3" class="image left"><img src="images/MMCC_Icon.jpg" alt="Cover of Lt. Reilly and the phantom raptor" /></a>
                             <div class="inner">
+                                <!-- <h3>Major Mitchell and the Carplex Conspiracy</h3> -->
                                 <p>Major Julie Anne Mitchell is on her own for a week while her partner Lt. Reilly is off on vacation with his girlfriend, Kayla. She expected a quiet week of data work and dry meetings with lawyers. But from the moment Antonio walked into her office, her week was anything but dull. Ordered to drop everything, she is tasked to work with Antonio to prove the conspiratorial partnership between the...</p>
                             </div>
                         </div>
                     </section>
                 </div>
                 
+                <!-- <div class="row">
+                    <section class="6u 12u(narrower)">
+                        <div class="box post">
+                            <a href="book5.html" class="image left"><img src="images/LRBBO_Icon.jpg" alt="Cover of Lt. Reilly and the Black Bird Offensive" /></a>
+                            <div class="inner">
+                                <h3>Lt. Reilly and the Black Bird Offensive</h3>
+                                <p>He took the job that Mitchell offered him in the Military Investigations office on New Harmony, got his commission reinstated, and finally had a chance to figure out his relationship with Kayla. Yet one of his cases turned out to be much, much bigger than he expected it to be.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="6u 12u(narrower)">
+                        <div class="box post">
+                            <a href="#" class="image left" style="padding-top: 21px; "><div style="font-size:8rem; text-align: center;">?</div></a>
+                            <div class="inner">
+                                <h3>Coming Soon!</h3>
+                                <p> &nbsp; </p>
+                            </div>
+                        </div>
+                    </section>
+                </div> -->
             </div>
         </section>
-
         <!-- Gigantic Heading -->
         <section id="fanFusionBanner" class="wrapper style2" style=" background-color: rgba(5, 6, 6, 1); background-image: url(images/comicFest.png); background-position: left center; background-size:contain; background-repeat: no-repeat;" title="Phoenix Comic Fest banner">
             <div class="container">
@@ -225,7 +324,7 @@
                 <div class="row">
                     <section class="6u 12u(narrower)">
                         <div class="box post">
-                            <a href="https://www.amazon.com/Matthew-O.-Duncan/e/B00NQIWPD8?ref_=dbs_p_ebk_r00_abau_000000" class="image left"><img src="images/Author.jpg" class="img-thumbnail" style="border-color: rgb(60, 60, 60); background-color: rgb(60, 60, 60);" alt="The author Matthew O. Duncan" /></a>
+                            <a href="#" class="image left"><img src="images/Author.jpg" class="img-thumbnail" style="border-color: rgb(60, 60, 60); background-color: rgb(60, 60, 60);" alt="The author Matthew O. Duncan" /></a>
                             <div class="inner">
                                 <h3 style="font-size: 100%;"> About the Author</h3>
                                 <p style="font-size: 100%;">Matthew O. Duncan is part of the resurgence of Old School Sci-fi. His books are a mix of Military Sci-fi, Fantasy, Romance, and Mystery weaved together with non-stop action.</p>
