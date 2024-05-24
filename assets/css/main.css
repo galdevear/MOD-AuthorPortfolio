@@ -2543,7 +2543,7 @@
 /* Banner */
 
 	.banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner-LTFP.png");
 		background-position: top center;
 		background-size: cover;
 		height: 28em;
@@ -2551,7 +2551,7 @@
 		position: relative;
 	}
 	.banner.bookOne{
-		background-image: url("../../images/banner-WS.jpg");
+		background-image: url("../../images/banner-WS.png");
 	}
 	.banner.eventOne{
 		background-image: url("../../images/eventOne.jpg");
@@ -2574,7 +2574,7 @@
 		}
 
 	.banner.bookThree{
-		background-image: url("../../images/banner-PS.jpg");
+		background-image: url("../../images/banner-LT.png");
 		background-position: center;
 	}
 	.banner.eventThree{
